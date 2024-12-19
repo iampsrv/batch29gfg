@@ -1,0 +1,14 @@
+deluser [--system] [--remove-home] [--remove-all-files] [--backup]
+        [--backup-to dir] [--backup-suffix str] [--conf file]
+        [--quiet] [--verbose] [--debug] user
+
+  remove a normal user from the system
+
+deluser --group [--system] [--only-if-empty] [--conf file] [--quiet]
+        [--verbose] [--debug] group
+delgroup [--system] [--only-if-empty] [--conf file] [--quiet]
+         [--verbose] [--debug] group
+  remove a group from the system
+
+deluser [--conf file] [--quiet] [--verbose] [--debug] user group
+  remove the user from a group
